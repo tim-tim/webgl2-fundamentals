@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url(resources/fonts/Inter-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url(resources/fonts/Inter-Regular.ttf) format('truetype');
+}
+
+:root {
+    --article-font-family: 'Inter', sans-serif;
+    --headline-font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,44 @@
+{
+  language: 'Russian',
+  langCode: 'ru',   // if not specified will use folder
+  defaultExampleCaption: "кликните здесь, чтобы открыть в отдельном окне",
+  title: 'Основы WebGL2',
+  description: 'Изучаем WebGL2 с нуля. Никакой магии',
+  link: 'https://webgl2fundamentals.org/',
+  commentSectionHeader: `
+    <div>Issue/Bug? <a href="https://github.com/gfxfundamentals/webgl2-fundamentals/issues">Create an issue on github</a>.</div>
+    <div class="lesson-comment-notes">
+       Используйте <b>&lt;pre&gt;&lt;code&gt;</b>здесь ваш код<b>&lt;/code&gt;&lt;/pre&gt;</b> для блоков кода
+    </div>
+  `,
+  missing: `
+    Извините, но эта страница еще не была переведена.
+    
+    [Переводы приветствуются](https://github.com/gfxfundamentals/webgl2-fundamentals)! 😄
+    
+    [А пока — вот оригинальная страница на английском языке]({{{origLink}}}).
+  `,
+  contribTemplate: 'Спасибо <a href="${html_url}"><img src="${avatar_url}"> ${login}</a><br>за <a href="https://github.com/${owner}/${repo}/commits?author=${login}">${contributions} ваш вклад</a>',
+  toc: 'Содержание',
+  categoryMapping: {
+    'fundamentals': "Основы",
+    'webgl2': "WebGL2 vs WebGL1",
+    'image-processing': "Обработка изображений",
+    'matrices': "2D перенос, поворот, масштабирование, матричная математика",
+    '3d': "3D",
+    'lighting': "Освещение",
+    'organization': "Структура и организация",
+    'geometry': "Геометрия",
+    'textures': "Текстуры",
+    'rendertargets': "Рендеринг в текстуру",
+    'shadows': "Тени",
+    'techniques': "Техники",
+    '2d': "2D",
+    'text': "Текст",
+    'gpgpu': "GPGPU",
+    'tips': "Советы",
+    'misc': "Остальное",
+    'reference': "Справочная информация",
+    'optimization': "Оптимизация",
+  },
+}
